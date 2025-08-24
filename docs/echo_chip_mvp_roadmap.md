@@ -9,9 +9,11 @@
 ---
 
 ## Phase 1: HTML MVP Foundation (Weeks 1-8)
-*"Prove the Magic in the Browser"*
+
+### Prove the Magic in the Browser
 
 ### Tech Stack Selection
+
 ```javascript
 // Core Technologies
 - Canvas 2D + WebGL fallback for rendering
@@ -23,6 +25,7 @@
 ```
 
 ### Week 1-2: HTML Foundation
+
 - [ ] **Canvas Rendering System**
   - 60fps game loop with requestAnimationFrame
   - Sprite rendering and basic animation system
@@ -36,6 +39,7 @@
   - Player movement with proper feel (180px/s base speed)
 
 ### Week 3-4: Core Abilities (Simplified)
+
 - [ ] **Sonic Wave System**
   - Visual cone emission using canvas arcs
   - Web Audio API tone generation (3 frequencies)
@@ -49,6 +53,7 @@
   - Mass-based interaction limits
 
 ### Week 5-6: Level System & Content
+
 - [ ] **JSON Level Format**
   - Tilemap system with destructible objects
   - Enemy spawn points and behavior scripting
@@ -61,6 +66,7 @@
   - **Challenge**: Combat + all abilities required
 
 ### Week 7-8: MVP Polish & Testing
+
 - [ ] **Audio Integration**
   - Background ambient tracks (2 minimum)
   - SFX library for all interactions
@@ -78,6 +84,7 @@
   - Analytics integration (player behavior tracking)
 
 **HTML MVP Success Metrics:**
+
 - 100+ players complete all 3 levels
 - Average session time > 12 minutes  
 - 70%+ positive feedback on core mechanics
@@ -86,9 +93,11 @@
 ---
 
 ## Phase 2: C++ Port & Enhancement (Weeks 9-20)
-*"Build the Real Thing"*
+
+### Build the Real Thing
 
 ### Tech Stack Transition
+
 ```cpp
 // Production Stack
 - SDL2 + OpenGL 3.3 for rendering
@@ -100,6 +109,7 @@
 ```
 
 ### Week 9-10: C++ Architecture Foundation
+
 - [ ] **Core Engine Setup**
   - SDL2 window management and rendering
   - OpenGL sprite batching system  
@@ -113,6 +123,7 @@
   - Precise sonic wave collision detection
 
 ### Week 11-12: Advanced Ability Systems
+
 - [ ] **Enhanced Sonic Mechanics**
   - FMOD integration for real-time frequency generation
   - Advanced resonance physics (harmonic frequencies)
@@ -126,6 +137,7 @@
   - Multi-object interaction and chaining
 
 ### Week 13-14: Procedural Generation System
+
 - [ ] **Chunk-Based Level Generation**
   - Template system with 12+ chunk variations
   - Difficulty scaling algorithms
@@ -139,6 +151,7 @@
   - Group coordination and formations
 
 ### Week 15-16: Full Narrative Integration
+
 - [ ] **Memory Fragment System**
   - 9 total fragments with cinematic playback
   - Fragment-gated progression mechanics
@@ -152,6 +165,7 @@
   - Branching companion storyline
 
 ### Week 17-18: Advanced Visuals & Audio
+
 - [ ] **OpenGL Shader Effects**
   - Magnetic field distortion shaders
   - Sonic wave screen-space effects
@@ -165,6 +179,7 @@
   - Dynamic mixing based on gameplay state
 
 ### Week 19-20: Systems Integration & Testing
+
 - [ ] **Skill Tree Implementation**
   - Full progression system from MECHANICS.md
   - Save/load system with progress persistence
@@ -178,6 +193,7 @@
   - 60fps target across target hardware specs
 
 **C++ Port Success Metrics:**
+
 - All HTML MVP content enhanced and expanded
 - Advanced physics feel significantly better than web version
 - Professional-quality audio implementation
@@ -186,9 +202,11 @@
 ---
 
 ## Phase 3: Full Release Preparation (Weeks 21-28)
-*"Ship the Experience"*
+
+### Ship the Experience
 
 ### Week 21-22: Content Expansion
+
 - [ ] **Zone Implementation**
   - Sky Born Labs with floating platform mechanics
   - Forgotten Graveyard with magnetic ghost enemies
@@ -202,6 +220,7 @@
   - Unique mechanics requiring all abilities
 
 ### Week 23-24: Advanced Features
+
 - [ ] **Faction System**
   - Conservers, Reclaimers, and Echoes implementation
   - Choice consequences affecting level generation
@@ -215,6 +234,7 @@
   - Difficulty options affecting physics and timing
 
 ### Week 25-26: Polish & Optimization
+
 - [ ] **Platform Integration**
   - Steam SDK integration (achievements, cloud saves)
   - Controller support (Xbox, PlayStation, generic)
@@ -228,6 +248,7 @@
   - Edge case handling and error recovery
 
 ### Week 27-28: Release Preparation
+
 - [ ] **Distribution Setup**
   - Steam store page optimization
   - itch.io enhanced version deployment  
@@ -245,17 +266,20 @@
 ## Parallel Development Strategies
 
 ### HTML MVP Learnings → C++ Implementation
+
 - **Physics Feel**: Document exact values that feel good in HTML
 - **Player Behavior**: Use analytics to identify pain points
 - **Narrative Effectiveness**: A/B test different story reveal timings
 - **Difficulty Progression**: Heatmap challenging sections
 
 ### Risk Mitigation Strategies
+
 - **Audio Complexity**: If Web Audio API limitations block core mechanics, simplify for MVP
 - **Physics Precision**: Test magnetic swing in HTML early - may need simplification
 - **Scope Management**: Each phase has must-have vs. nice-to-have features clearly defined
 
 ### Success Validation Gates
+
 - **Week 8**: HTML MVP gets 70%+ positive feedback
 - **Week 16**: C++ port feels significantly enhanced over HTML
 - **Week 24**: Full content pipeline producing quality levels efficiently  
@@ -266,12 +290,14 @@
 ## Technology Migration Strategy
 
 ### Assets & Content
+
 - **Art Pipeline**: Create assets at C++ target resolution from day 1
 - **Audio**: Record/source at professional quality for FMOD implementation
 - **Level Data**: Design JSON format compatible with both HTML and C++ engines
 - **Scripts**: Document all gameplay values for easy parameter transfer
 
 ### Code Architecture  
+
 - **Shared Logic**: Design gameplay systems to be engine-agnostic where possible
 - **Interface Abstraction**: Create clean interfaces for rendering, audio, input
 - **Data-Driven**: Minimize hardcoded values to ease platform transitions
@@ -281,22 +307,21 @@
 ## Budget & Resource Planning
 
 ### HTML MVP Phase (Weeks 1-8)
+
 - **Development**: Solo developer time
 - **Art**: Placeholder + basic pixel art
 - **Audio**: Free/cheap asset store resources
 - **Tools**: Free (GitHub, VS Code, web hosting)
 
 ### C++ Production Phase (Weeks 9-28)
+
 - **Development**: Full-time commitment
 - **Art**: Professional pixel artist (contract)
 - **Audio**: FMOD license + professional composer
 - **Tools**: Professional IDE, asset pipeline tools
 
 ### Success Metrics by Phase
+
 - **HTML MVP**: Prove concept, gather feedback, build audience
 - **C++ Port**: Professional quality implementation
 - **Full Release**: Commercial viability and critical reception
-
----
-
-*"HTML lets you fail fast and iterate quickly. C++ lets you build the experience players will remember forever."*
